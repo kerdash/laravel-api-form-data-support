@@ -1,0 +1,21 @@
+{
+    "name": "hassankerdash/laravel-api-form-data-support",
+    "description": "Provides support for handling and parsing form data in PUT and PATCH requests.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Helpers/Helper.php"
+        ],
+        "psr-4": {
+            "HassanKerdash\\LaravelApiFormDataSupport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HassanKerdash\\LaravelApiFormDataSupport\\Providers\\AppServiceProvider"
+            ]
+        }
+    }
+}
