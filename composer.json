@@ -4,9 +4,6 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
-        "files": [
-            "src/Helpers/Helper.php"
-        ],
         "psr-4": {
             "HassanKerdash\\LaravelApiFormDataSupport\\": "src/"
         }
